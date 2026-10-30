@@ -5,4 +5,4 @@ services:
     network_mode: host
     volumes:
       - .:/workspace
-    command: python -m http.server 3000 --bind 0.0.0.0
+    command: python -m http.server 3000 --bind 0.0.0.0 --directory web
